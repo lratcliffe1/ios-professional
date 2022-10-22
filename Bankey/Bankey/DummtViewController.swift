@@ -47,6 +47,6 @@ extension DummyViewController {
     }
     
     @objc func logoutButtonTapped(sender: UIButton) {
-        logoutDelegate?.didLogOut()
+        logoutDelegate?.didLogout()
     }
 }

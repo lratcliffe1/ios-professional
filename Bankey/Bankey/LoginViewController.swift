@@ -5,7 +5,7 @@ protocol LoginViewControllerDelegate: AnyObject {
 }
 
 protocol LogOutDelegate: AnyObject {
-    func didLogOut()
+    func didLogout()
 }
 
 class LoginViewController: UIViewController {
