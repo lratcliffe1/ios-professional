@@ -169,24 +169,18 @@ extension LoginViewController {
         let duration = 0.8
         let animator1 = UIViewPropertyAnimator(duration: duration, curve: .easeInOut) {
             self.titleLeadingAnchor?.constant = self.leadingEdgeOnScreen
+            self.subtitleLeadingAnchor?.constant = self.leadingEdgeOnScreen
+
             self.view.layoutIfNeeded()
         }
         let animator2 = UIViewPropertyAnimator(duration: duration, curve: .easeInOut) {
-            self.subtitleLeadingAnchor?.constant = self.leadingEdgeOnScreen
-            self.view.layoutIfNeeded()
-        }
-        let animator3 = UIViewPropertyAnimator(duration: duration, curve: .easeInOut) {
             self.titleLabel.alpha = 1
-            self.view.layoutIfNeeded()
-        }
-        let animator4 = UIViewPropertyAnimator(duration: duration, curve: .easeInOut) {
             self.subtitleLabel.alpha = 1
+
             self.view.layoutIfNeeded()
         }
         
         animator1.startAnimation()
         animator2.startAnimation(afterDelay: 0.2)
-        animator3.startAnimation(afterDelay: 0.2)
-        animator4.startAnimation(afterDelay: 0.4)
     }
 }
