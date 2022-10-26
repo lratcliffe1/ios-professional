@@ -34,6 +34,8 @@
 		15EDFB2529094B3900936393 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EDFB2429094B3900936393 /* AccountTests.swift */; };
 		15EDFB272909508000936393 /* SkeletonLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EDFB262909508000936393 /* SkeletonLoadable.swift */; };
 		15EDFB29290950D800936393 /* SkeletonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EDFB28290950D800936393 /* SkeletonCell.swift */; };
+		15EDFB2C2909786900936393 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EDFB2B2909786900936393 /* ProfileManager.swift */; };
+		15EDFB2E290979B800936393 /* AccountSummaryViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EDFB2D290979B800936393 /* AccountSummaryViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		15EDFB2429094B3900936393 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		15EDFB262909508000936393 /* SkeletonLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLoadable.swift; sourceTree = "<group>"; };
 		15EDFB28290950D800936393 /* SkeletonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonCell.swift; sourceTree = "<group>"; };
+		15EDFB2B2909786900936393 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		15EDFB2D290979B800936393 /* AccountSummaryViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSummaryViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,7 @@
 				156BEC4429093CD9005844D3 /* AccountSummaryViewController+Networking.swift */,
 				15BB5DFC2902C0D100C376F6 /* Header */,
 				15BB5DFD2902C0E400C376F6 /* Cells */,
+				15EDFB2A2909784500936393 /* Networking */,
 			);
 			name = AccountSummary;
 			sourceTree = "<group>";
@@ -233,8 +238,17 @@
 			children = (
 				15EDFB2229094AE400936393 /* ProfileTests.swift */,
 				15EDFB2429094B3900936393 /* AccountTests.swift */,
+				15EDFB2D290979B800936393 /* AccountSummaryViewControllerTests.swift */,
 			);
 			path = AccountSymmary;
+			sourceTree = "<group>";
+		};
+		15EDFB2A2909784500936393 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				15EDFB2B2909786900936393 /* ProfileManager.swift */,
+			);
+			name = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +356,7 @@
 				15772A152901C72500E3B6C4 /* UIViewController+Utils.swift in Sources */,
 				15EDFB29290950D800936393 /* SkeletonCell.swift in Sources */,
 				15BB5E1B2904211E00C376F6 /* Date+Utils.swift in Sources */,
+				15EDFB2C2909786900936393 /* ProfileManager.swift in Sources */,
 				15772A062901595C00E3B6C4 /* LoginView.swift in Sources */,
 				15772A132901A9E200E3B6C4 /* LocalState.swift in Sources */,
 				15BB5DF92902B7DB00C376F6 /* AccountSummaryHeaderView.swift in Sources */,
@@ -370,6 +385,7 @@
 				15BB5E122902DDD700C376F6 /* CurrencyFormatterTests.swift in Sources */,
 				15EDFB2529094B3900936393 /* AccountTests.swift in Sources */,
 				15EDFB2329094AE400936393 /* ProfileTests.swift in Sources */,
+				15EDFB2E290979B800936393 /* AccountSummaryViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
