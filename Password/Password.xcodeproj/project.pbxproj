@@ -14,6 +14,7 @@
 		15951E61290BDFC700C33259 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15951E60290BDFC700C33259 /* PasswordTextField.swift */; };
 		15951E64290BE82200C33259 /* PasswordCriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15951E63290BE82200C33259 /* PasswordCriteriaView.swift */; };
 		15951E66290BEB2C00C33259 /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15951E65290BEB2C00C33259 /* PasswordStatusView.swift */; };
+		15951E68290BF38300C33259 /* PasswordCritiera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15951E67290BF38300C33259 /* PasswordCritiera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		15951E60290BDFC700C33259 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 		15951E63290BE82200C33259 /* PasswordCriteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaView.swift; sourceTree = "<group>"; };
 		15951E65290BEB2C00C33259 /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
+		15951E67290BF38300C33259 /* PasswordCritiera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCritiera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 		15951E62290BE81900C33259 /* PasswordStatusView */ = {
 			isa = PBXGroup;
 			children = (
-				15951E63290BE82200C33259 /* PasswordCriteriaView.swift */,
 				15951E65290BEB2C00C33259 /* PasswordStatusView.swift */,
+				15951E63290BE82200C33259 /* PasswordCriteriaView.swift */,
+				15951E67290BF38300C33259 /* PasswordCritiera.swift */,
 			);
 			name = PasswordStatusView;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15951E50290BDE1A00C33259 /* ViewController.swift in Sources */,
+				15951E68290BF38300C33259 /* PasswordCritiera.swift in Sources */,
 				15951E4C290BDE1A00C33259 /* AppDelegate.swift in Sources */,
 				15951E64290BE82200C33259 /* PasswordCriteriaView.swift in Sources */,
 				15951E66290BEB2C00C33259 /* PasswordStatusView.swift in Sources */,
